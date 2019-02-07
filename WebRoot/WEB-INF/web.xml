@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.user.servlet.registServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>activeServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.user.servlet.activeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.user.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>quitServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.user.servlet.quitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findallServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.category.web.servlet.findallServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findallBookServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.book.web.servlet.findallBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findBookByCidServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.book.web.servlet.findBookByCidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loadbookServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.book.web.servlet.loadbookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addToCartServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.cart.web.servlet.addToCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>clearServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.cart.web.servlet.clearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.cart.web.servlet.deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>oderServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.order.web.servlet.oderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myorderServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.order.web.servlet.myorderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loadorderServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.order.web.servlet.loadorderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateStateServlet</servlet-name>
+    <servlet-class>cn.fruitmilk.order.web.servlet.updateStateServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>registServlet</servlet-name>
+    <url-pattern>/registServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>activeServlet</servlet-name>
+    <url-pattern>/activeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>quitServlet</servlet-name>
+    <url-pattern>/quitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findallServlet</servlet-name>
+    <url-pattern>/findallServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findallBookServlet</servlet-name>
+    <url-pattern>/findallBookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findBookByCidServlet</servlet-name>
+    <url-pattern>/findBookByCidServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loadbookServlet</servlet-name>
+    <url-pattern>/loadbookServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addToCartServlet</servlet-name>
+    <url-pattern>/addToCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clearServlet</servlet-name>
+    <url-pattern>/clearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>oderServlet</servlet-name>
+    <url-pattern>/oderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myorderServlet</servlet-name>
+    <url-pattern>/myorderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loadorderServlet</servlet-name>
+    <url-pattern>/loadorderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateStateServlet</servlet-name>
+    <url-pattern>/updateStateServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
